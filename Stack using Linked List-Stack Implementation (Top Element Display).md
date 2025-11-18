@@ -1,3 +1,4 @@
+
 # 📚 Stack using Linked List: Stack Implementation (Top Element Display)
 
 ## 🎯 Aim
@@ -22,8 +23,33 @@ The program allows inserting 3 elements from the user and then prints the **top 
 ---
 
 ## 💻 Program
-Add Code Here
+~~~
+stack = []
+
+stack.append('a')
+stack.append('b')
+stack.append('c')
+stack.append('d')
+
+print('Initial stack: ' + str(stack))
+
+for i in range(len(stack)):
+    top = stack[i]
+
+print("\nElement at the top of the stack is .... ", top)
+
+stack.pop()
+
+for i in range(len(stack)):
+    top = stack[i]
+
+print("\nAfter removing an element from the stack.")
+print("\nElement at the top of the stack is .... ", top)
+~~~
 
 ## Output
+<img width="913" height="300" alt="image" src="https://github.com/user-attachments/assets/752b22f5-d40b-436e-b131-2024ffc30aed" />
+
 
 ## Result
+Thus the output is verified.
